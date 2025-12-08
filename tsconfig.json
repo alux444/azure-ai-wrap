@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    /* ===== Output settings ===== */
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "rootDir": "src",
+
+    /* ===== Node environment ===== */
+    "lib": ["ESNext"],
+    "types": ["node"],
+
+    /* ===== Emit helpers ===== */
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    /* ===== Strictness ===== */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    /* ===== Module Behavior ===== */
+    "verbatimModuleSyntax": false,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+
+    /* ===== CLI friendliness ===== */
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+
+    /* ===== Keep things simple for scripts & CLI ===== */
+    "noEmitOnError": true
+  },
+
+  "include": ["src"]
+}
