@@ -1,3 +1,3 @@
-import { callAgent } from "./agent";
+import { callAgent, callAgentWithImage } from "./agent";
 
-await callAgent("ghello", "hello");
+await callAgentWithImage("you are an agent", "describe the attached image", "temp");
